@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilty Gear - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="img/gg-logo.png" alt="Guilty Gear Logo" class="logo">
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="/main/characters/index.html">Characters</a></li>
+                <li><a href="mechanics.html">Game Mechanics</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="community.html">Community</a></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>WELCOME TO THE WORLD OF GUILTY GEAR STRIVE</h1>
+                <p>Rock & Roll meets high-octane fighting action</p>
+                <a href="characters.html" class="cta-button">Explore Characters</a>
+            </div>
+        </section>
+
+        <section class="game-highlights">
+            <h2>THE PINNACLE OF FIGHTING GAMES</h2>
+            <div class="highlights-container">
+                <div class="highlight-card">
+                    <img src="img/gameplay-highlight1.jpg" alt="Intense gameplay moment">
+                    <h3>Stunning Visuals</h3>
+                    <p>Experience the revolutionary 2.5D art style that brings characters to life</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="img/gameplay-highlight2.jpg" alt="Special move execution">
+                    <h3>Deep Combat Systems</h3>
+                    <p>Master unique fighting mechanics like Roman Cancels, Burst, and Tension</p>
+                </div>
+                <div class="highlight-card">
+                    <img src="img/gameplay-highlight3.jpg" alt="Character roster">
+                    <h3>Diverse Characters</h3>
+                    <p>Choose from an eclectic cast with distinct playstyles and personalities</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="latest-release">
+            <div class="release-content">
+                <h2>LATEST RELEASE: GUILTY GEAR STRIVE</h2>
+                <p>The newest evolution in the legendary fighting game series</p>
+                <ul class="feature-list">
+                    <li>Jaw-dropping 3D graphics with the soul of traditional 2D animation</li>
+                    <li>Redesigned fighting system accessible to newcomers and veterans alike</li>
+                    <li>Rollback netcode for smooth online matches</li>
+                    <li>Epic soundtrack by series creator Daisuke Ishiwatari</li>
+                </ul>
+            </div>
+            <div class="release-media">
+                <div class="video-container">
+                    <!-- This would typically be a real video element or embedded YouTube -->
+                    <div class="video-placeholder">
+                        <img src="img/strive-trailer-thumb.jpg" alt="Guilty Gear Strive Trailer">
+                        <div class="play-button" id="video-play">▶</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <h2>LATEST NEWS</h2>
+            <div class="news-container">
+                <article class="news-card">
+                    <img src="img/news1.jpg" alt="News image">
+                    <div class="news-content">
+                        <h3>New DLC Character Announced!</h3>
+                        <p class="date">April 18, 2025</p>
+                        <p>The newest addition to the roster has been revealed. Check out the gameplay trailer!</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/news2.jpg" alt="News image">
+                    <div class="news-content">
+                        <h3>World Championship Series Dates</h3>
+                        <p class="date">April 10, 2025</p>
+                        <p>The official tournament circuit has been announced with stops in major cities worldwide.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/news3.jpg" alt="News image">
+                    <div class="news-content">
+                        <h3>Balance Patch 2.45 Notes</h3>
+                        <p class="date">April 5, 2025</p>
+                        <p>Major changes coming to Sol, Ky, and I-No in the upcoming balance update.</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="img/gg-small-logo.png" alt="Guilty Gear Logo">
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="mechanics.html">Game Mechanics</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="community.html">Community</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Guilty Gear</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/twitter.svg" alt="Twitter">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/discord.svg" alt="Discord">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/youtube.svg" alt="YouTube">
+                    </a>
+                    <a href="#" class="social-icon">
+                        <img src="img/icons/twitch.svg" alt="Twitch">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+                <form id="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Guilty Gear Fan Site. This is a student project. All game content belongs to Arc System Works.</p>
+        </div>
+    </footer>
+</body>
+</html>
